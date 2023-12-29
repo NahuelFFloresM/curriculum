@@ -34,6 +34,12 @@ body::before {
     background-attachment: fixed;
   }
 }
+@media (max-width: 600px){
+  body::before{
+    background: #000000 url("../img/bg_cel.jpeg") no-repeat;
+    background-size: cover;
+  }
+}
 
 a {
   color: #18d26e;
