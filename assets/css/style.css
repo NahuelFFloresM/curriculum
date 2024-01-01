@@ -1194,3 +1194,7 @@ section .container {
 .credits a:hover {
   color: #fff;
 }
+
+h4{
+  cursor: default;
+}
