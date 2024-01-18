@@ -5,6 +5,15 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+
+addEventListener("DOMContentLoaded", (event) => {
+  document.getElementById("toggle_load").style.opacity = 0;
+  setTimeout(() => {
+    document.getElementById("toggle_load").style.display = "none";
+  }, 2000);
+});
+
+
 (function() {
   "use strict";
 
