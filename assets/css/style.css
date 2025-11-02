@@ -17,6 +17,11 @@ body {
   background: transparent;
 }
 
+iframe {
+  width: -webkit-fill-available;
+  width: 100%;
+}
+
 
 .lds-ripple {
   display: inline-block;
@@ -34,6 +39,13 @@ body {
 .lds-ripple div:nth-child(2) {
   animation-delay: -0.5s;
 }
+
+@media only screen and (min-width: 768px){
+  .sm-t{
+    margin-top: 20%;
+  }
+}
+
 @keyframes lds-ripple {
   0% {
     top: 36px;
