@@ -778,6 +778,7 @@ section .container {
   background: rgba(204, 204, 204, 0.1);
   padding: 80px 20px;
   transition: all ease-in-out 0.3s;
+  height: -webkit-fill-available;
 }
 
 .services .icon-box .icon {
